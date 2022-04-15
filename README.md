@@ -1,2 +1,5 @@
 # terminal-shader
-So I can have a fancy terminal.
+I wanted to have a pretty terminal.
+
+## Screenshot
+![Terminal](image.png)
