@@ -10,6 +10,10 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "toggleShaderEffects",
+            "keys": "alt+shift+e"
+        },
+        {
             "command": "paste",
             "keys": "ctrl+v"
         },
@@ -24,43 +28,43 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
-        },
-        {
-            "command": "toggleShaderEffects",
-            "keys": "alt+shift+e"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "experimental.rendering.forceFullRepaint": false,
     "profiles": {
         "defaults": {
             "antialiasingMode": "cleartype",
             "backgroundImage": "C:\\Terminal-Shader\\vrc-background-thing.png",
-            "backgroundImageOpacity": 0.10000000000000001,
+            "backgroundImageOpacity": 0.1,
             "bellStyle": [
                 "audible",
                 "window",
                 "taskbar"
             ],
             "closeOnExit": "never",
-            "colorScheme": "Tango Dark",
+            "colorScheme": "Monokai Retouched",
+            "experimental.pixelShaderPath": "C:\\Terminal-Shader\\bg.hlsl",
+            "experimental.retroTerminalEffect": false,
             "font": {
-                "face": "Source Code Pro"
+                "face": "Cascadia Mono"
             },
-            "icon": "C:\\Users\\A\\Pictures\\kit-gang-icon.png",
+            "icon": "C:\\Terminal-Shader\\kit-gang-icon.png",
             "opacity": 90,
             "useAcrylic": true,
-            "experimental.pixelShaderPath": "C:\\Terminal-Shader\\bg.hlsl"
+            "useAtlasEngine": true
         },
         "list": [
             {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -72,27 +76,27 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{e928f923-9eb7-5ae4-85f8-05b530d7c4bf}",
+                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
+                "hidden": false,
+                "name": "Git Bash",
+                "source": "Git"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{50c4c198-aefe-5383-aad1-85228520ce00}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2019",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{9f477dbc-3acb-5612-807c-89b20a74cc77}",
+                "guid": "{dbff4691-02b3-5bf5-bd34-6e30beffddb1}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2019",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{1799da79-4ac3-5ba4-bab7-3962e74daac3}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2017 (2)",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{4bbf075c-b447-524c-9010-3c2707e223fd}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2017",
                 "source": "Windows.Terminal.VisualStudio"
             }
         ]
@@ -328,5 +332,7 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
